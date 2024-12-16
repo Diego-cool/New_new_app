@@ -21,5 +21,6 @@ if st.button("Submit"):
     st.write(f"Selected Option: {selected_option}")
     st.write(f"slider value: {slider_value}")
 # Additional information
-
+st.subheader("Summary")
+st.write("Fill out the form above and click the submit button to see detail")
 # Footer
