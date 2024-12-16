@@ -15,6 +15,9 @@ selected_option = st.selectbox("Choose and Option:", options)
 
 # Slider for selecting a value
 slider_value = st.slider("Select a value", 1 , 100, 50)
+
+# Radio button for selecting gender
+gender = st.radio("Select your gender:", ("Male,"))
 # Submit button
 if st.button("Submit"):
     st.write(f"Name: {name}")
@@ -24,3 +27,4 @@ if st.button("Submit"):
 st.subheader("Summary")
 st.write("Fill out the form above and click the submit button to see detail")
 # Footer
+st.text("Created with streamlit - A simple web app framework for Python")
